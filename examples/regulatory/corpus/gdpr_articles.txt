@@ -1,0 +1,29 @@
+The controller shall implement appropriate technical and organisational measures to ensure that the processing of personal data is performed in accordance with this regulation and shall be able to demonstrate that processing is carried out in compliance with the rights of the data subject.
+
+The controller shall ensure that personal data are processed lawfully and transparently in relation to the data subject. The controller shall collect personal data for specified explicit and legitimate purposes and shall not further process personal data in a manner that is incompatible with those purposes.
+
+The controller shall ensure that personal data are adequate relevant and limited to what is necessary in relation to the purposes for which they are processed. The controller shall take every reasonable step to ensure that personal data that are inaccurate are erased or rectified without delay.
+
+Where processing is to be carried out on behalf of a controller the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that processing will meet the requirements of this regulation and ensure the protection of the rights of the data subject.
+
+The processor shall process personal data only on documented instructions from the controller including with regard to transfers of personal data to a third country. The processor shall ensure that persons authorised to process the personal data have committed themselves to confidentiality. The controller shall ensure compliance of the processor.
+
+The controller and the processor shall maintain a record of processing activities under their responsibility. That record shall contain the name and contact details of the controller the purposes of the processing a description of the categories of data subjects and of the categories of personal data processed by the controller.
+
+The controller shall notify the supervisory authority of the personal data breach without undue delay. The controller shall document any personal data breaches comprising the facts relating to the personal data breach its effects and the remedial action taken by the controller. The data subject shall be informed by the controller.
+
+The controller shall communicate the personal data breach to the data subject without undue delay where the personal data breach is likely to result in a high risk to the rights and freedoms of the data subject. The controller shall describe the nature of the personal data breach and the measures taken by the controller.
+
+The controller shall prior to the processing carry out an assessment of the impact of the envisaged processing operations on the protection of personal data. The controller shall seek the advice of the data protection officer when carrying out a data protection impact assessment. The controller shall consult the supervisory authority where processing would result in a high risk.
+
+The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning the data subject are being processed by the controller and where that is the case the controller shall provide access to the personal data and information about the processing.
+
+The data subject shall have the right to obtain from the controller the rectification of inaccurate personal data concerning the data subject. The data subject shall have the right to have incomplete personal data completed including by means of providing a supplementary statement to the controller.
+
+The data subject shall have the right to obtain from the controller the erasure of personal data concerning the data subject without undue delay and the controller shall have the obligation to erase personal data without undue delay where the personal data are no longer necessary for the purposes of processing by the controller.
+
+The data subject shall have the right to obtain from the controller restriction of processing where the accuracy of the personal data is contested by the data subject or where the processing is unlawful and the data subject opposes the erasure of the personal data and requests the restriction of processing instead.
+
+The controller shall provide the data subject with information about action taken on a request from the data subject without undue delay. Where the controller does not take action on the request of the data subject the controller shall inform the data subject of the reasons for not taking action and of the possibility of lodging a complaint with a supervisory authority.
+
+Each supervisory authority shall act with complete independence in performing its tasks and exercising its powers in accordance with this regulation. The supervisory authority shall have the power to order the controller and the processor to comply with the provisions of this regulation regarding the processing of personal data.

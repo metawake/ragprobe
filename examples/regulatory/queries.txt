@@ -1,0 +1,7 @@
+What measures shall the controller implement for processing personal data?
+What are the rights of the data subject regarding personal data processed by the controller?
+What shall the controller do about a personal data breach?
+What obligations does the controller have for the processing of personal data?
+When shall the controller notify the supervisory authority?
+What shall the controller ensure about the processing of personal data?
+How shall the controller respond to a request from the data subject?

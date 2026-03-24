@@ -1,0 +1,23 @@
+StreamDB is a distributed time-series database designed for high-throughput ingestion of sensor data. StreamDB supports write rates of up to 2 million points per second on a single node using the TSM storage engine.
+
+To install StreamDB on Ubuntu 22.04, add the official APT repository and run apt-get install streamdb-server. The default configuration file is located at /etc/streamdb/streamdb.conf and listens on port 8086.
+
+StreamDB uses a custom query language called StreamQL for data retrieval. StreamQL supports SELECT, WHERE, GROUP BY, and aggregate functions including MEAN, SUM, COUNT, PERCENTILE, and DERIVATIVE.
+
+Retention policies in StreamDB control how long data is stored before automatic deletion. Each database can have multiple retention policies with different durations. The default retention policy keeps data indefinitely.
+
+StreamDB Relay provides high-availability by replicating writes across multiple StreamDB instances. Configure relay nodes by setting the relay-enabled flag in streamdb.conf and specifying the downstream endpoints.
+
+The Kapacitor alerting engine integrates with StreamDB to process streaming data in real time. Kapacitor uses TICKscript to define alert rules, thresholds, and notification channels including Slack, PagerDuty, and email.
+
+StreamDB supports continuous queries that run automatically at specified intervals and store aggregated results into a target measurement. Continuous queries are useful for downsampling high-resolution data into summary tables.
+
+Authentication in StreamDB is configured by enabling the auth-enabled setting in streamdb.conf. Users are managed with the CREATE USER and GRANT commands in StreamQL. StreamDB supports admin and non-admin user roles.
+
+The StreamDB HTTP API exposes endpoints for writing data (/write), querying data (/query), and managing databases (/db). All API requests require an Authorization header when authentication is enabled.
+
+To back up a StreamDB database, use the streamdb-backup utility which creates a portable snapshot of the TSM data files and metadata. Restore backups with streamdb-restore specifying the target database name.
+
+Grafana connects to StreamDB using the built-in StreamDB data source plugin. Configure the connection by specifying the StreamDB URL, database name, and optional credentials in the Grafana data source settings panel.
+
+StreamDB tags are indexed metadata attached to each data point. Tags should be used for values with low cardinality such as host names, regions, or sensor types. High-cardinality values like user IDs should be stored as fields rather than tags to avoid index bloat.
