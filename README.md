@@ -165,9 +165,9 @@ ragprobe score --corpus ./chunks/ --queries queries.json --pre-chunked
 ragprobe score --corpus ./docs --queries questions.txt
 ```
 
-## Part of the RAG measurement ecosystem
+## Ecosystem
 
-ragprobe is one of three independent tools for RAG retrieval quality:
+Part of a RAG tools suite for retrieval quality:
 
 | Tool | Layer | Question it answers |
 |------|-------|-------------------|
@@ -225,4 +225,4 @@ MIT
 
 ## Author
 
-[Oleksii Alexapolsky](https://github.com/metawake) — Senior Python & Applied AI Engineer. Building measurement tools for RAG retrieval: [ragtune](https://github.com/metawake/ragtune), [chunkweaver](https://github.com/metawake/chunkweaver), ragprobe. Writing about what actually works at [medium.com/@TheWake](https://medium.com/@TheWake).
+[Oleksii Alexapolsky](https://www.linkedin.com/in/alexey-a-181a614/) ([𝕏](https://x.com/thewake)) — building retrieval quality tools: [chunkweaver](https://github.com/metawake/chunkweaver), [ragtune](https://github.com/metawake/ragtune), [ragprobe](https://github.com/metawake/ragprobe).
